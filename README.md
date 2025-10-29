@@ -18,7 +18,7 @@ Feel free to customize and expand upon this template to suit your project's need
 
 ### Prerequisites
 
-- Node.js (>= 20.x)
+- Node.js (>= 20.19.x)
 - Yarn (>= 1.22.x)
 
 ### Installation
