@@ -1,17 +1,10 @@
-import { describe, it, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import { render, screen, within } from '@testing-library/react'
-import ThemeProvider from '@/theme'
 import Welcome from './index'
-
-const WrappedWelcome = () => (
-  <ThemeProvider>
-    <Welcome />
-  </ThemeProvider>
-)
 
 describe('Welcome Component', () => {
   it('renders correctly', () => {
-    render(<WrappedWelcome />)
+    render(<Welcome />)
     const heading = screen.getByRole('heading', { level: 1 })
     expect(heading).toHaveTextContent('HomeVision')
 

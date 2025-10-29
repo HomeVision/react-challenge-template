@@ -2,6 +2,8 @@
 
 This template provides a minimal setup to run React with Vite, including HMR and basic ESLint rules. It helps users quickly bootstrap projects, allowing them to focus on building features efficiently.
 
+Feel free to customize and expand upon this template to suit your project's needs!
+
 ## Features
 
 - **React**: A JavaScript library for building user interfaces.
@@ -9,7 +11,7 @@ This template provides a minimal setup to run React with Vite, including HMR and
 - **Vite**: A fast build tool and development server.
 - **ESLint**: A tool for identifying and fixing problems in JavaScript code.
 - **Prettier**: An opinionated code formatter.
-- **Styled Components**: A library for styling React components.
+- **Tailwind**: A utility-first CSS framework.
 - **Vitest**: A Vite-native unit test framework.
 
 ## Getting Started
